@@ -29,7 +29,7 @@ const Sidebar = () => {
             <Link to='/'>
               <img
                 // className='hidden md:block'
-                src='https://i.ibb.co/4ZXzmq5/logo.png'
+                src={logo}
                 alt='logo'
                 width='100'
                 height='100'
@@ -70,7 +70,7 @@ const Sidebar = () => {
           {/* Nav Items */}
           <div className='flex flex-col justify-between flex-1 mt-6'>
             <nav>
-              {/*  Menu Items */}
+               Menu Items
               <CustomerMenu />
               <SellerMenu />
 
